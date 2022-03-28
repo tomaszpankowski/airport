@@ -29,8 +29,13 @@ const appCfg = {
 };
 
 const APP_LINKS = {
-    messages: "",
-    users: ""
+    messages: "http://localhost/airport/public/message.php",
+    register: "register.php",
+    users: "http://localhost/airport/public/user.php"
+};
+
+const msgCfg = {
+    pageSize: 10
 };
 
 const MESSAGES = {
@@ -47,5 +52,6 @@ const MESSAGES = {
 export {
     appCfg,
     APP_LINKS,
-    MESSAGES
+    MESSAGES,
+    msgCfg
 }
