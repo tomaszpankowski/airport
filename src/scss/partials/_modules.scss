@@ -1,4 +1,37 @@
 @include aoa-bg-series($bg__init,$classes_init);
+@media all and (orientation:portrait){
+    .about{
+        &-s1{
+            background-position-x: 60% !important;
+        }
+        &-s2{
+            background-position-x: center !important;
+        }
+    }
+    .contact{
+        &-s1{
+            background-position-x: center !important;
+        }
+    }
+    .flightinfo{
+        &-s1{
+            background-position-x: 60% !important;
+        }
+        &-s3{
+            background-position-x: center !important;
+        }
+    }
+    .index{
+        &-s1{
+            background-position-x: 60% !important;
+        }
+    }
+    .service{
+        &-s1{
+            background-position-x: 30% !important;
+        }
+    }
+}
 
 .about{
     &-s3{
@@ -38,7 +71,13 @@
         text-shadow: $text__shadow;
     }
 }
-
+h1,h2,h3,h4,h5,h6,.nav-link{
+    font-family: "Audiowide";
+    letter-spacing: 1px;
+}
+header{
+    z-index: 10;
+}
 nav{
     z-index: 10;
 }
@@ -56,6 +95,9 @@ textarea{
             }
             background-color: #666!important;
             background-blend-mode: multiply!important;
+        }
+        &-s1{
+            background-position-x: right !important;
         }
     }
     .contact,.index{
@@ -76,6 +118,14 @@ textarea{
             }
             background-color: #666!important;
             background-blend-mode: multiply!important;
+        }
+        &-s1{
+            background-position-x: right !important;
+        }
+    }
+    .index{
+        &-s1{
+            background-position-x: right!important;
         }
     }
     .service{
