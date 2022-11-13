@@ -19,9 +19,6 @@ class ContactData extends Component{
             <Container fluid className={"contact-s1 align-items-center p-0 d-flex minh-50vh "+this.props.classExt}>
                 <Row className="mx-auto text-center w-100 pt-5">
                     <Col xs={10} md={4} className="mx-auto text-dark p-0">
-                        <img alt="about"
-                            className="img-fluid w-75"
-                            src="img/contact/contact-data.png"/>
                     </Col>
                     <Col xs={10} md={5} className="mx-auto text-secondary p-0 d-flex align-items-center">
                         <div className="p-5">
